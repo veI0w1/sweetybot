@@ -120,7 +120,7 @@ Country: <b><ins>$bname</ins> - 💲<ins>$currency</ins></b>
 Issuers Contact: <b><ins>$phone</ins></b>
 <b>━━━━━━━━━━━━━
 Checked By <a href='tg://user?id=$userId'>$firstname</a></b>
-<b>Bot By: <a href='t.me/ninjanaveen'>ɴɪɴᴊᴀ ɴᴀᴠᴇᴇɴ</a></b>",
+<b>Bot By: <a href='t.me/vel0w1'>vel0w1</a></b>",
               'parse_mode'=>'html',
               'reply_to_message_id'=> $message_id,
               'disable_web_page_preview'=>'true']);}
@@ -140,7 +140,7 @@ Checked By <a href='tg://user?id=$userId'>$firstname</a></b>
           bot('editMessageText',[
             'chat_id'=>$chat_id,
             'message_id'=>$messageidtoedit,
-            'text'=>"<b>Never Gonna Give you Up!
+            'text'=>"<b>Don't give up
 
 Provide a Bin!</b>",
             'parse_mode'=>'html',
