@@ -74,7 +74,7 @@ if(strpos($message, "/iban ") === 0){
 <ins>Time:</ins>  <code>$timetaken</code><code>s</code>
 <b>━━━━━━━━━━━━━
 Checked By <a href='tg://user?id=$userId'>$firstname</a></b>
-<b>Bot By: <a href='t.me/ninjanaveen'>ɴɪɴᴊᴀ ɴᴀᴠᴇᴇɴ</a></b>",
+<b>Bot By: <a href='t.me/vel0w1'>vel0w1</a></b>",
                 'parse_mode'=>'html',
                 'disable_web_page_preview'=>'true'
                 
@@ -88,7 +88,7 @@ Checked By <a href='tg://user?id=$userId'>$firstname</a></b>
 <b>━━━━━━━━━━</b>
 
 <b>Checked By <a href='tg://user?id=$userId'>$firstname</a></b>
-<b>Bot By: <a href='t.me/ninjanaveen'>ɴɪɴᴊᴀ ɴᴀᴠᴇᴇɴ</a></b>",
+<b>Bot By: <a href='t.me/vel0w1'>vel0w1</a></b>",
                 'parse_mode'=>'html',
                 'disable_web_page_preview'=>'true'
                 
@@ -98,7 +98,7 @@ Checked By <a href='tg://user?id=$userId'>$firstname</a></b>
           bot('editMessageText',[
             'chat_id'=>$chat_id,
             'message_id'=>$messageidtoedit,
-            'text'=>"<b>Never Gonna Give you Up!
+            'text'=>"<b>Don't give up
 
 Provide a Valid SK KEYYYY!</b>",
             'parse_mode'=>'html',
