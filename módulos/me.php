@@ -39,7 +39,7 @@ if(strpos($message, "/me") === 0 || strpos($message, "!me") === 0){
 - <ins>User ID:</ins> <code>$userId</code>
 - <ins>Full Name:</ins> ".htmlspecialchars($firstname.$lastname)."
 - <ins>User Name:</ins> @$username
-- <ins>User Type:</ins> <b>Free User</b>
+- <ins>User Type:</ins> <b>Owner</b>
 ━━━━━━━━━━━━━=
 <b>$date1 $time</b>",
           'parse_mode'=>'html',
@@ -86,7 +86,7 @@ if($data == "backme"){
 - <ins>User ID:</ins> <code>$callbackuserid</code>
 - <ins>Full Name:</ins> ".htmlspecialchars($callbackfname.$callbacklname)."
 - <ins>User Name:</ins> @$callbackusername
-- <ins>User Type:</ins> <b>Free User</b>
+- <ins>User Type:</ins> <b>Owner</b>
 ━━━━━━━━━━━━━=
 <b>$date1 $time</b>",
       'parse_mode'=>'html',
